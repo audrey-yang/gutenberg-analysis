@@ -54,12 +54,15 @@ public class Gutenberg {
 
                     if (currChapter != null) {
                         word = cleanWord(word);
+                        if (word.isBlank()) {
+                            break;
+                        }
                         if (word.contains(" ")) {
                             String word1 = word.substring(0, word.indexOf(" "));
 
                             if (!word1.equals("")) {
                                 text.add(word1);
-                                freqs.put(word, freqs.getOrDefault(word1, 0) + 1);
+                                freqs.put(word1, freqs.getOrDefault(word1, 0) + 1);
                                 currChapter.add(word1);
                                 currChapterFreqs.put(word1, currChapterFreqs.getOrDefault(word1, 0) + 1);
                             }
@@ -263,7 +266,8 @@ public class Gutenberg {
      * */
     static String cleanWord(String word) {
         return word.toLowerCase().
-                replaceAll("[.,;:!?\\\\\\/\\–\\\"\\'\\_()]", "").replaceAll("--", " ");
+                replaceAll("[.,;:!?\\\\\\/\\–\\\"\\'\\_()]", "").
+                replaceAll("--", " ").strip();
     }
 
     /*

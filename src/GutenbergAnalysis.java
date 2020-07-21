@@ -9,7 +9,7 @@ public class GutenbergAnalysis {
         System.out.println("Most frequent words: " + g.get20MostFrequentWords());
         System.out.println("Most frequent interesting words: " + g.get20MostInterestingFrequentWords());
         System.out.println("Least frequent words: " + g.get20LeastFrequentWords());
-        System.out.println("Frequency of the word \"sir\": " + g.getFrequencyOfWord("sir"));
+        System.out.println("Frequency of the word \"baskerville\": " + g.getFrequencyOfWord("baskerville"));
         System.out.println("Chapter of the quote \"There is nothing more stimulating than a case where everything goes against you\": "
                 + g.getChapterQuoteAppears("There is nothing more stimulating than a case where everything goes against you"));
         System.out.println("Generated sentence: " + g.generateSentence());

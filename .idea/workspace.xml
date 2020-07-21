@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4839fef1-e2ef-4a7c-b265-46295b8c49a7" name="Default Changelist" comment="" />
+    <list default="true" id="4839fef1-e2ef-4a7c-b265-46295b8c49a7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gutenberg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gutenberg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/GutenbergTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/GutenbergTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,12 +14,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1evpP1FSgRiAb52nOLMihzaAHBL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,7 +40,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -42,8 +50,33 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/files" />
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.GutenbergAnalysis">
+    <configuration name="GutenbergAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GutenbergAnalysis" />
+      <module name="gutenberg" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GutenbergTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gutenberg" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GutenbergTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GutenbergAnalysis" />
+        <item itemvalue="JUnit.GutenbergTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -71,14 +104,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="228" y="23" key="SettingsEditor" timestamp="1595211978992">
+    <state x="197" y="-800" width="1200" height="538" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1595291549590">
+      <screen x="0" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="197" y="-800" width="1200" height="538" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.778/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1595291549590" />
+    <state width="1400" height="191" key="GridCell.Tab.0.bottom" timestamp="1595292048207">
+      <screen x="0" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1400" height="191" key="GridCell.Tab.0.bottom/0.23.1440.778/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1595292048207" />
+    <state width="1400" height="191" key="GridCell.Tab.0.bottom/0.23.1440.778/0.-1057.1920.1057@0.23.1440.778" timestamp="1595280138149" />
+    <state width="1400" height="191" key="GridCell.Tab.0.center" timestamp="1595292048206">
+      <screen x="0" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1400" height="191" key="GridCell.Tab.0.center/0.23.1440.778/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1595292048206" />
+    <state width="1400" height="191" key="GridCell.Tab.0.center/0.23.1440.778/0.-1057.1920.1057@0.23.1440.778" timestamp="1595280138147" />
+    <state width="1400" height="191" key="GridCell.Tab.0.left" timestamp="1595292048206">
+      <screen x="0" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1400" height="191" key="GridCell.Tab.0.left/0.23.1440.778/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1595292048206" />
+    <state width="1400" height="191" key="GridCell.Tab.0.left/0.23.1440.778/0.-1057.1920.1057@0.23.1440.778" timestamp="1595280138146" />
+    <state width="1400" height="191" key="GridCell.Tab.0.right" timestamp="1595292048207">
+      <screen x="0" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1400" height="191" key="GridCell.Tab.0.right/0.23.1440.778/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1595292048207" />
+    <state width="1400" height="191" key="GridCell.Tab.0.right/0.23.1440.778/0.-1057.1920.1057@0.23.1440.778" timestamp="1595280138148" />
+    <state x="228" y="23" key="SettingsEditor" timestamp="1595264667211">
       <screen x="0" y="23" width="1440" height="778" />
     </state>
-    <state x="228" y="23" key="SettingsEditor/0.23.1440.778/0.-1057.1920.1057@0.23.1440.778" timestamp="1595211978992" />
-    <state x="398" y="226" key="com.intellij.ide.util.TipDialog" timestamp="1595211896472">
+    <state x="228" y="23" key="SettingsEditor/0.23.1440.778/0.-1057.1920.1057@0.23.1440.778" timestamp="1595264667211" />
+    <state x="398" y="226" key="com.intellij.ide.util.TipDialog" timestamp="1595279735843">
       <screen x="0" y="23" width="1440" height="778" />
     </state>
-    <state x="398" y="226" key="com.intellij.ide.util.TipDialog/0.23.1440.778/0.-1057.1920.1057@0.23.1440.778" timestamp="1595211896472" />
+    <state x="398" y="226" key="com.intellij.ide.util.TipDialog/0.23.1440.778/0.-1057.1920.1057@0.23.1440.778" timestamp="1595279735843" />
     <state x="431" y="295" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1595212000863">
       <screen x="0" y="23" width="1440" height="778" />
     </state>
@@ -87,5 +144,21 @@
       <screen x="0" y="23" width="1440" height="778" />
     </state>
     <state x="498" y="128" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.778/0.-1057.1920.1057@0.23.1440.778" timestamp="1595211994186" />
+    <state x="7" y="-1057" width="1050" height="739" key="dock-window-1" timestamp="1595258386931">
+      <screen x="0" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="7" y="-1057" width="1050" height="739" key="dock-window-1/0.23.1440.778/0.-1057.1920.1057@0.23.1440.778" timestamp="1595258386931" />
+    <state x="280" y="-1057" width="1050" height="520" key="dock-window-2" timestamp="1595273773200">
+      <screen x="0" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="280" y="-1057" width="1050" height="520" key="dock-window-2/0.23.1440.778/0.-1057.1920.1057@0.23.1440.778" timestamp="1595273773199" />
+    <state x="458" y="-1057" width="1050" height="520" key="dock-window-3" timestamp="1595265419214">
+      <screen x="0" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="458" y="-1057" width="1050" height="520" key="dock-window-3/0.23.1440.778/0.-1057.1920.1057@0.23.1440.778" timestamp="1595265419214" />
+    <state x="384" y="125" width="670" height="676" key="search.everywhere.popup" timestamp="1595276929709">
+      <screen x="0" y="23" width="1440" height="778" />
+    </state>
+    <state x="384" y="125" width="670" height="676" key="search.everywhere.popup/0.23.1440.778/0.-1057.1920.1057@0.23.1440.778" timestamp="1595276929709" />
   </component>
 </project>
